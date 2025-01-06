@@ -2,7 +2,7 @@ import time
 import requests
 
 # URL do heartbeat
-url = "https://uptime.betterstack.com/api/v1/heartbeat/rrG7YsDtF4EV3ZGrt8yN5nkq"
+url = "https://uptime.betterstack.com/api/v1/heartbeat/vJP7STeKQL5JKBFHsn2DzDkj"
 
 while True:
     try:
