@@ -1,12 +1,9 @@
 import time
 import requests
 
-# URL do heartbeat
-url = "https://uptime.betterstack.com/api/v1/heartbeat/vJP7STeKQL5JKBFHsn2DzDkj"
-
 while True:
     try:
-        response = requests.get(url)
+        response = requests.get("https://uptime.betterstack.com/api/v1/heartbeat/vJP7STeKQL5JKBFHsn2DzDkj")
         print(f"Heartbeat enviado. Código de status: {response.status_code}")
     except requests.RequestException as e:
         print(f"Ocorreu um erro: {e}")
